@@ -34,4 +34,4 @@ printPascals(int(input('Enter number of rows:')))
 Here the feed array is used as a starting poing for the algorithm.
 Every array has a starting 0 and a trailing 0.
 
-'feed' array is used to calculate the next row in the pascals triangle, which is stored in the 'newFeed' array.
+`feed` array is used to calculate the next row in the pascals triangle, which is stored in the `newFeed` array.
