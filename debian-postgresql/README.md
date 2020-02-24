@@ -1,1 +1,1 @@
-#Installation of Debian and setting up Postgresql
+# Installation of Debian and setting up Postgresql
