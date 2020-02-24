@@ -36,3 +36,7 @@ Every array has a starting 0 and a trailing 0.
 `    print(*feed[1:len(feed)-1], sep = '\t')`
 
 The above print statement prints all the elements in the list `feed` except for first and last element. And the elements are seperated by a tab character `\t`.
+
+**Logic for Pascals:**
+
+![alt text](./Images/pascals.png "Pascals Triangle Logic")
