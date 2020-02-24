@@ -41,3 +41,25 @@ The above print statement prints all the elements in the list `feed` except for 
 **Logic for Pascals:**
 
 ![alt text](https://github.com/sab3r-ncirl/dap/blob/bb8b0d39f7e17a0765f7a2ef971609852b6e92e3/Images/pascals.PNG "Pascals Triangle Logic")
+
+
+### OpenWeatherMap API
+
+
+```
+import requests
+WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
+APPID = "b35975e18dc93725acb092f7272cc6b8"
+city = input("Enter City: ")
+
+PARAMS = {'q':city, 'APPID': APPID} 
+
+r = requests.get(url = WEATHER_URL, params = PARAMS) 
+data = r.json()
+
+print('Temperature: %.2f '%(data['main']['temp'] - 273.15)) # Convert Temperature from Kelvin to degree celcius
+print('Wind Speed: ' + str(data['wind']['speed']))
+print('Description: ' + str(data['weather'][0]['description']))
+print('Weather: ' + str(data['weather'][0]['main']))
+
+```
