@@ -16,7 +16,6 @@ Create an empty dictionary object called myDict . Using a loop structure, add an
 def printPascals(num):
     feed = [0, 1, 0]
     print(*feed[1:len(feed)-1], sep = '\t')
-    #print(len(feed)-1)
     for j in range(num-1):
         newFeed = [0]
         lengthOfFeed = len(feed) - 1
@@ -35,3 +34,7 @@ Here the feed array is used as a starting poing for the algorithm.
 Every array has a starting 0 and a trailing 0.
 
 `feed` array is used to calculate the next row in the pascals triangle, which is stored in the `newFeed` array.
+
+`    print(*feed[1:len(feed)-1], sep = '\t')`
+
+The above print statement prints all the elements in the list `feed` except for first and last element. And the elements are seperated by a tab character `\t`.
