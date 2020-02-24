@@ -40,4 +40,4 @@ The above print statement prints all the elements in the list `feed` except for 
 
 **Logic for Pascals:**
 
-![alt text](https://github.com/sab3r-ncirl/dap/blob/master/Images/pascals.PNG "Pascals Triangle Logic")
+![alt text](https://github.com/sab3r-ncirl/dap/blob/bb8b0d39f7e17a0765f7a2ef971609852b6e92e3/Images/pascals.PNG "Pascals Triangle Logic")
