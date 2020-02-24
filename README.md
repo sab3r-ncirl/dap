@@ -63,3 +63,13 @@ print('Description: ' + str(data['weather'][0]['description']))
 print('Weather: ' + str(data['weather'][0]['main']))
 
 ```
+
+**OUTPUT**
+
+```
+Enter City: London
+Temperature: 10.46 
+Wind Speed: 8.7
+Description: moderate rain
+Weather: Rain
+```
