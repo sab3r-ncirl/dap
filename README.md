@@ -23,7 +23,6 @@ def printPascals(num):
             newFeed.append(feed[i] + feed[i+1])
             #print(newFeed)
         newFeed.append(0)
-        #print('\t'*int(num-len(newFeed)/2), end='')
         print(*newFeed[1:len(newFeed)-1], sep = '\t')
         feed = newFeed
 
