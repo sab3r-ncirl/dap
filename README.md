@@ -64,7 +64,7 @@ print('Weather: ' + str(data['weather'][0]['main']))
 
 ```
 
-**OUTPUT**
+**Output**
 
 ```
 Enter City: London
