@@ -5,10 +5,10 @@ This is a repo for the module Databases and Analytics Programming.
 
 Programs for all the Labs will be added to this as and when I complete them.
 
-##Programs##
+## Programs
 
 
-###Pascal's Triangle###
+### Pascal's Triangle
 Create an empty dictionary object called myDict . Using a loop structure, add an entry to myDict for each value in myList . The key values for entries in myDict should be integer values commencing at 0.
 
 
