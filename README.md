@@ -45,6 +45,10 @@ The above print statement prints all the elements in the list `feed` except for 
 
 ### OpenWeatherMap API
 
+This is a very straight-forward program where we use the API key to request data from the open weather API.
+`requests` package is used to read the API response (that is in JSON format) in the `data` variable.
+If you print the `data` variable you will see all the information that the API returns.
+The final four print statements are used to print the specific data requested in the assignment. 
 
 ```
 import requests
