@@ -21,7 +21,6 @@ def printPascals(num):
         lengthOfFeed = len(feed) - 1
         for i in range(lengthOfFeed):
             newFeed.append(feed[i] + feed[i+1])
-            #print(newFeed)
         newFeed.append(0)
         print(*newFeed[1:len(newFeed)-1], sep = '\t')
         feed = newFeed
